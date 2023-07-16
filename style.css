@@ -12,7 +12,6 @@ body {
   padding: 10px;
 }
 header {
-
 }
 .profile-image {
   width: 90px;
@@ -34,45 +33,45 @@ h4 {
   float: right;
   padding: 20px;
 }
-.header-contract a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.89);
-    font-weight: bold;
-    font-size: 20px;
+.header-contract a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.89);
+  font-weight: bold;
+  font-size: 20px;
 }
-.header-contract a:hover{
-    text-decoration: underline;
-    color: tomato;
+.header-contract a:hover {
+  text-decoration: underline;
+  color: tomato;
 }
-.div-clear{
-    clear: both;
+.div-clear {
+  clear: both;
 }
-hr{
-    border: solid black 3px;
-    width: 100%;
-    margin: 20px auto;
-    border-bottom: none;
+hr {
+  border: solid black 3px;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
 }
-/* personal section */
-#personal-section{
-
+/* ----------------
+ personal section
+ ------------------- */
+#personal-section {
 }
-.content{
-
+.content {
+    margin-bottom: 30px;
 }
-.left-div{
-width: 30%;
-float: left;
+.left-div {
+  width: 30%;
+  float: left;
 }
-.right-div{
-width: 70%;
-float: right;
-line-height: 25px;
+.right-div {
+  width: 70%;
+  float: left;
+  line-height: 25px;
 }
-.common-hr{
-    border: solid black 1px;
-    border-bottom: none;
-    width: 100%;
-    margin: 20px auto;
-
+.common-hr {
+  border: solid black 1px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
 }
