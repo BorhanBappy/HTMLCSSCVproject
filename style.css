@@ -58,7 +58,7 @@ hr {
 #personal-section {
 }
 .content {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .left-div {
   width: 30%;
@@ -67,11 +67,42 @@ hr {
 .right-div {
   width: 70%;
   float: left;
-  line-height: 25px;
+  /*  This line height basically used for line space after break one line to another */
+  /* line-height: 25px;   */
+}
+.right-div-right {
+  width: 40%;
+  float: left;
+}
+.right-div-left {
+  width: 40%;
+  float: right;
 }
 .common-hr {
   border: solid black 1px;
   border-bottom: none;
   width: 100%;
   margin: 20px auto;
+}
+table {
+  border-collapse: collapse;
+}
+
+td {
+  vertical-align: top;
+  text-align: left;
+}
+.bottom-container {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+.bottom-container a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+.bottom-container p {
+  color: white;
+  margin-top: 20px;
 }
